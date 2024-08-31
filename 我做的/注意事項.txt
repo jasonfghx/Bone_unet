@@ -1,0 +1,10 @@
+包在註解裡的程式是我自己改的
+
+後面標ori的是原作者版本(我改亂掉的話可去原repo連結看
+
+https://github.com/milesial/Pytorch-UNet
+
+
+
+data_loading.py 72行那邊原本有問題，mask圖片轉tensor維度怪怪的，建議改寫
+資料集的mask可能有幾張有問題
